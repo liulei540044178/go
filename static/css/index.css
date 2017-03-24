@@ -1,0 +1,315 @@
+/*样式设置高度撑满整个页面，那么必须从最外层一层一层设置高度100%；*/
+/*html,body,div{*/
+    /*height:100%;*/
+/*}*/
+
+html,body{
+    width:100%;;
+    height:100%;
+    display: table
+}
+.i_msg_{
+    float: left;
+    width:240px;
+    /*height:500px;*/
+    height:100%;
+    background-color: #3C3F41;
+    position: relative;
+    display: table-cell;
+}
+.i_t_logo_{
+    width:100%;;
+    height:50px;
+    background: #222;
+
+    font-family: 楷体;
+    text-align: center;
+    line-height:50px;
+    font-size: large;;
+    font-weight: bold;
+    color: #fff;
+}
+.i_head_{
+}
+.i_head_ .i_head_box_{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid ;
+}
+.i_head_ img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.i_head_ .i_user_{
+    color: #fff;
+    font-size:12px;
+    text-align: center;
+    display: block;
+    padding: 10px 0 0 0;
+}
+.i_head_ .i_user_ i{
+    color: #5CB85C;
+    margin-right: 5px;
+}
+.i_menu_{
+    position: absolute;
+    top: 210px;
+    bottom: 130px;
+}
+
+.i_menu_ ol {
+    margin-left: 2px;
+    padding-top: 10px;
+}
+.i_menu_left_border_{
+    border-left: 1px solid;
+}
+.i_menu_ ol li{
+    text-align: left;
+    /*height: 40px;*/
+    line-height: 40px;
+    /*margin-left: 30px;*/
+    border: 1px solid transparent;
+}
+.i_menu_ ol li ol{
+
+}
+
+.i_menu_ ol li ol li{
+    text-align: center;
+}
+
+.i_menu_ ol li ol li a{
+    color: #fff;
+    font-size: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.i_menu_child_{}
+
+/*.i_menu_ ol li:hover{*/
+    /*border: 1px solid;*/
+/*}*/
+
+.i_menu_ ol li i{
+    margin-left: 30px;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+.i_menu_ ol li i .i_float_r_{
+    float: right;
+}
+.i_menu_ ol li span{
+    color: #fff;
+    font-size: 14px;
+}
+
+.i_footer_{
+    padding: 30px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #313335;
+    bottom: 0;
+}
+.i_footer_ ol{
+    overflow: hidden;
+}
+.i_footer_ ol li {
+    display: block;
+    padding: 0 5px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+}
+
+.i_footer_ a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.i_footer_ span{
+
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+.i_content_{
+    color: #fff;
+    /*display: table-cell;*/
+    /*
+    原理 ： div（块元素）自动充满整个屏幕宽度
+    下面不设置也能生效
+    左边的div 宽度为240px 右边的设置margin-left   内容自动填充满*/
+    margin-left: 240px;
+    height:100%;
+    position: relative;
+    /*background: #2B2B2B;*/
+}
+
+.i_content_ .i_title_header_{
+     color: #fff;
+
+ }
+
+.i_file_list_{
+    width: 300px;
+    /*position:inherit;*/
+    /*height: 100%;*/
+    background: #fff;
+    padding: 10px;
+    position:absolute;
+    bottom: 0;
+    top: 50px;
+    /*border: 1px solid;*/
+}
+
+
+.i_file_list_ ol{
+
+}
+
+.i_file_list_ ol li{
+    margin-bottom: 10px;
+}
+
+.i_file_list_ ol li a{
+    display: inline-block;
+    color: #000;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    font-size: 12px;
+    border: 1px #eaeaea solid;
+    border-radius: 3px;
+}
+
+
+.i_file_list_ ol li a i{
+
+}
+
+.i_file_list_ ol li a span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.i_file_list_ ol li a div{
+
+}
+
+.i_file_list_ ol li .i_fresh_{
+    width: 100%;
+    text-align: center;
+    background: #eaeaea;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.i_edit_{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 310px;
+    color: #000;
+    padding:10px;
+    border:1px #eaeaea solid;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    position: absolute;;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+/*daohang*/
+.i_nav_{
+    height: 50px;
+}
+html .i_nav_ .navbar-inverse {
+    background-color: #222;
+    /* border-color: #080808; */
+}
+.i_list_ol_{}
+
+#cke_1_contents{
+    height: 510px;
+ }
+
+#mCSB_1_scrollbar_vertical,
+#mCSB_2_scrollbar_vertical {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .75;
+    z-index: -1;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+
+#cke_editor1{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    top: 100px;
+    left: 10px;
+}
+
+#cke_1_bottom{
+    user-select: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.i_alert_{
+
+    width: 200px;
+    height: 150px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    bottom: 57%;
+    border-radius: 10px;
+}
+
+.i_alert_ i{
+    width: inherit;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0 0 0;
+    color: #666;
+    border-radius: 10px;
+}
+
+.i_alert_ span{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+}
